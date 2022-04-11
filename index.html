@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebGL Video Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <canvas id="canvas"></canvas>
+    <button class="arrow-button" id="prev-button"><</button>
+    <button class="arrow-button" id="next-button">></button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popmotion/11.0.0/popmotion.min.js" integrity="sha512-huULEH7efthIJ2+vm+LoLYvy5/gRJkrA2g/G2xhBIrYiYyc1qq6P+r95Szmhbvi59jyhATyZstzAgXm4BQ72HA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="vertex_shader.js"></script>
+  <script src="fragment_shader.js"></script>
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>
